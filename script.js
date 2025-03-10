@@ -116,7 +116,7 @@ function endConversation() {
   overlay.style.opacity = "1";
   overlayText.textContent = "Loading...";
   setTimeout(() => {
-    overlayText.textContent = "Error!";
+    overlayText.textContent = "Nym-os is copying data...";
     overlay.classList.add("glitch");
     // După câteva secunde de glitch, treci la joc
     setTimeout(() => {
