@@ -133,8 +133,8 @@ function endConversation() {
 
 // Eveniment pentru finalizarea jocului
 finishGameBtn.addEventListener("click", () => {
-  gameContainer.style.display = "none";
-  videoContainer.style.display = "block";
+  // Redirecționează direct la pagina de vizualizare a videoclipului pe Google Drive
+  window.location.href = "https://drive.google.com/file/d/1u_eAneiysYW0RQqg_saNTvblARixtzdU/view?usp=sharing";
 });
 
 // Inițierea primei runde
