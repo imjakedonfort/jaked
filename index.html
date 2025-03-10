@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat with Unknown</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Chat Container -->
+  <div class="chat-container" id="chat-container">
+    <div class="chat-box" id="chat-box">
+      <!-- Mesajele vor fi adăugate dinamic -->
+    </div>
+    <div class="options" id="options">
+      <!-- Opțiunile de răspuns vor fi adăugate dinamic -->
+    </div>
+    <div class="npc-typing" id="typing">Typing...</div>
+  </div>
+
+  <!-- Loading/Error Screen -->
+  <div class="overlay" id="overlay">
+    <p id="overlay-text"></p>
+  </div>
+
+  <!-- Game Container -->
+  <div class="game-container" id="game-container">
+    <h2>Mini-Game</h2>
+    <p>Press the button to finish the game</p>
+    <button id="finish-game-btn">Finish Game</button>
+  </div>
+
+  <!-- Video Container -->
+  <div class="video-container" id="video-container">
+    <h2>Watch the video</h2>
+    <!-- Exemplu: folosește linkul video corespunzător Google Drive -->
+    <iframe src="https://drive.google.com/file/d/EXEMPLU_VIDEO_ID/preview" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html
